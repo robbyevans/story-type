@@ -14,7 +14,7 @@ const SweeperButtonSecondary: FC<Props> = ({
 }) => {
   return (
     <div
-      className={`sweeper-buttons-container  ${isDisable ? 'disabled' : ''} `}
+      className={`sweeper-buttons-controller  ${isDisable ? 'disabled' : ''} `}
     >
       <SweeperButton
         chevronOrientation="chevronRight"
