@@ -1,9 +1,15 @@
-import React, { FC } from "react";
+import React, { FC } from 'react'
 
-interface AppProps {}
+interface AppProps {
+  
+}
 
-const App: FC<AppProps> = ({}) => {
-  return <div>App</div>;
-};
+const App: FC<AppProps> = ({  }) => {
+  return (
+    <div>
+     App
+    </div>
+  )
+}
 
 export default App;
